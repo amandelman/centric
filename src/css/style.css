@@ -1,13 +1,13 @@
-#derp {
-  font-size: 1em;
+.nav-button {
+  font-family: fantasy;
 }
 
 .logo {
   width: 150px;
 }
 
-.derp {
-  padding-top: 20px;
+#derp {
+  font-size: 5em;
 }
 
 /*# sourceMappingURL=style.css.map */

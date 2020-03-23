@@ -1,9 +1,20 @@
 @import "../../node_modules/bourbon-neat/core/neat";
 
+
 $neat-grid: (
   columns: 12,
   gutter: 20px,
 );
+
+.nav-button {
+  font-family: fantasy,
+};
+
+
+// singletons
+.logo {
+  width: 150px;
+}
 
 #derp {
   font-size: 5em;
