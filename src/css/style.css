@@ -1,5 +1,13 @@
 #derp {
-  font-size: 5em;
+  font-size: 1em;
+}
+
+.logo {
+  width: 150px;
+}
+
+.derp {
+  padding-top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
