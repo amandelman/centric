@@ -10,8 +10,20 @@
   font-family: fago-bold;
   src: url("../font/FagoPro-Bold.otf") format("opentype");
 }
-.nav-button {
-  font-family: opensans-regular;
+body {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.centric-nav {
+  font-family: opensans-bold;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.centric-nav ul {
+  width: 100%;
 }
 
 .logo {
