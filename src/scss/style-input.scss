@@ -1,22 +1,22 @@
 @import "../../node_modules/bourbon-neat/core/neat";
 
 @font-face {
-  font-family: opensans1;
-  src: url("/src/fonts/OpenSans-Regular.ttf") format("truetype");
+  font-family: opensans;
+  src: url("/src/font/OpenSans-Regular.ttf") format("truetype");
   weight:normal;
 }
 
-@font-face {
-  font-family: opensans2;
-  src: url("/src/fonts/OpenSans-SemiBold.ttf") format("truetype");
-  weight:bold;
-}
+// @font-face {
+//   font-family: opensans2;
+//   src: url(/src/fonts/OpenSans-SemiBold.ttf) format("truetype");
+//   weight:bold;
+// }
 
-@font-face {
-  font-family: fago-bold;
-  src: url("/src/fonts/FagoPro-Bold.otf") format("opentype");
-  font-weight: normal;
-}
+// @font-face {
+//   font-family: fago-bold;
+//   src: url(/src/fonts/FagoPro-Bold.otf) format("opentype");
+//   font-weight: normal;
+// }
 
 $neat-grid: (
   columns: 12,
