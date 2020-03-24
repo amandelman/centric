@@ -1,10 +1,17 @@
 @font-face {
-  font-family: opensans;
-  src: url("/src/font/OpenSans-Regular.ttf") format("truetype");
-  weight: normal;
+  font-family: opensans-regular;
+  src: url("../font/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: opensans-bold;
+  src: url("../font/OpenSans-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: fago-bold;
+  src: url("../font/FagoPro-Bold.otf") format("opentype");
 }
 .nav-button {
-  font-family: opensans1;
+  font-family: opensans-regular;
 }
 
 .logo {
