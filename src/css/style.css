@@ -12,7 +12,7 @@
 }
 body {
   width: 100%;
-  max-width: 960px;
+  max-width: 375px;
   margin: 0 auto;
 }
 
@@ -26,8 +26,17 @@ body {
   width: 100%;
 }
 
+.nav-button {
+  padding: 0.5em;
+}
+
 .logo {
-  width: 150px;
+  padding: 0.5em;
+  width: 100px;
+}
+
+.menu-collapsed {
+  display: none;
 }
 
 .derp {

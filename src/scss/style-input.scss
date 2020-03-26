@@ -15,14 +15,16 @@
   src: url("../font/FagoPro-Bold.otf") format("opentype");
 }
 
+
 $neat-grid: (
   columns: 12,
-  gutter: 20px,
+  gutter: 16px,
+
 );
 
 body {
   width: 100%;
-  max-width: 960px;
+  max-width: 375px;
   margin: 0 auto;
 }
 
@@ -36,9 +38,17 @@ body {
   width: 100%;
 }
 
-// singletons
+.nav-button {
+  padding: 0.5em;
+}
+
 .logo {
-  width: 150px;
+  padding: 0.5em;
+  width: 100px;
+}
+
+.menu-collapsed {
+  display: none;
 }
 
 .derp {
