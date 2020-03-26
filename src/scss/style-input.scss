@@ -15,15 +15,54 @@
   src: url("../font/FagoPro-Bold.otf") format("opentype");
 }
 
+//Responsive mixins from Marko—organize these properly!
+@mixin mobile {
+  @if (map-get($neat-grid, columns)) {
+    @warn 'Detected a nested breakpoint!';
+  } @else {
+    $neat-grid: $neat-settings-mobile !global;
+    @content;
+    $neat-grid: () !global;
+  }
+}
+
+@mixin portrait {
+  @if (map-get($neat-grid, columns)) {
+    @warn 'Detected a nested breakpoint!';
+  } @else {
+    $neat-grid: $neat-settings-portrait !global;
+    @media (min-width: $breakpoint-portrait) {
+      @content;
+    }
+    $neat-grid: () !global;
+  }
+}
+
+//Variable for mixins above. Organize these
+$neat-settings-mobile: (
+  columns: 12,
+  gutter: 16px,
+  media: 530px,
+  margin: 0,
+  max-width: 100%,
+  debug-color: #f06,
+) !global;
+
+$neat-settings-portrait: (
+  columns: 12,
+  gutter: 16px,
+  media: 800px,
+  margin: 0,
+  max-width: 100%,
+  debug-color: #0cf,
+) !global;
 
 $neat-grid: (
   columns: 12,
   gutter: 16px,
-
 );
 
 body {
-  width: 100%;
   max-width: 375px;
   margin: 0 auto;
 }
